@@ -66,7 +66,6 @@ export const updateStackedChartColors = (isDarkMode: boolean) => {
   STACKED_CHART_FILLS = isDarkMode ? DARK_STACKED_CHART_FILLS : LIGHT_STACKED_CHART_FILLS
 }
 
-// refer to packages/ui/radix-colors.js for full list of colors
 export type ValidStackColor =
   | 'brand'
   | 'blue'
